@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema XXI</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Cinema XII</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="buy.html">Buy Ticket</a>
+            <a href="cafe.html">XII Cafe</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+    <main>
+        <div class="atas">
+            <div>
+                <h1>Cinema XII | Tukad Citarum</h1>
+                <h3>Watch Every Movies You Like</h3>
+                <p>Website created by : Athena Group</p>
+            </div>
+            <div>
+                <img src="assets/logo_xxi-removebg-preview.png" alt="">
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="package-container">
+                <!--1st ticket content-->
+                <img src="assets/marvel.jpg" alt="pic not found">
+                <h3>THE MARVELS (3D) | R13+</h3>
+                <!--add button here-->
+                <button class="left">Buy Ticket</button>
+            </div>
+            <div class="package-container">
+                <!--2nd ticket contain-->
+                <img src="assets/saranjana.jpg" alt="pic not found">
+                <h3>SARANJANA : Kota Ghaib | R13+</h3>
+                <button class="left">Buy Ticket</button>
+            </div>
+            <div class="package-container">
+                <!--3rd ticket contain-->
+                <img src="assets/tylr.jpg" alt="pic not found">
+                <h3>TAYLOR SWIFT : The Eras Tour</h3>
+                <button class="left">Buy Ticket</button>
+            </div>
+        </div>
+        <!--Tabel Film-->
+        <h1 class="title">Movies</h1>
+        <div class="table">
+            <table>
+                <tr>
+                    <!--table heading-->
+                    <th>Movies</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Buy Ticket</th>
+                </tr>
+                <tr>
+                    <!--table data 1-->
+                    <td><img src="assets/hunger games.jpg" alt="pic not found"></td>
+                    <td>THE HUNGER GAMES : THE BALLAD OF SONGBIRDS AND SNAKES | R13+<br>
+                        Producer : Nina Jacobson, Francis Lawrence, Brad Simpson <br>
+                        Director : Francis Lawrence<br>
+                        Writer   : Michael Lesslie, Michael Arndt<br>
+                        Cast     : Tom Blyth, Hunter Schafer, Jason Schwartzman,<br>
+                                   Peter Dinklage, Kjell Brutscheidt, Viola Davis,<br>
+                                   Ayomide Adegun, Burn Gorman, Fionnula Flanagan,<br>
+                                   George Somner<br>
+                        Distributor : Lionsgate
+                    </td>
+                    <td>IDR 40,000</td>
+                    <td><button onclick="goToBuy()" type="button">Buy Ticket</button></td>
+                </tr>
+                <tr>
+                    <!--table data 2-->
+                    <td><img src="assets/budi pkrti.jpg" alt="pic not found"></td>
+                    <td>Budi Pekerti | R13+<br>
+                        Producer : Adi Ekatama, Willawati, Iman Usman<br>
+                        Director : Wregas Bhanuteja<br>
+                        Writer   : Wregas Bhanuteja<br>
+                        Cast     : Sha Ine Febriyanti, Angga Yunanda, Prilly Latuconsina,<br>
+                                   Dwi Sasono, Omara Esteghlal, Ari Lesmana
+                        Distributor : Rekata Studios, Kaninga Pictures
+                    </td>
+                    <td>IDR 40,000</td>
+                    <td><button onclick="goToBuy()" type="button">Buy Ticket</button></td>
+                </tr>
+                <tr>
+                    <!--table data 3-->
+                    <td><img src="assets/sijjin.jpg" alt="pic not found"></td>
+                    <td>SIJJIN | R17+<br>
+                        Producer : Gope T.Samtani<br>
+                        Director : Hadrah Daeng Ratu<br>
+                        Writer   : Lele Laila<br>
+                        Cast     : Ibrahim Risyad, Niken Anjani,<br>
+                                   Anggika Bolsterli, Delia Husein,<br>
+                                   Messi Gusti<br>
+                        Distributor : Rapi Films, Sky Media, Legacy Pictures
+                    </td>
+                    <td>IDR 40,000</td>
+                    <td><button onclick="goToBuy()" type="button">Buy Ticket</button></td>
+                </tr>
+                <tr>
+                    <!--table data 4-->
+                    <td><img src="assets/freelance.jpg" alt="pic not found"></td>
+                    <td>FREELANCE | R17+<br>
+                        Producer : Michael Arrieta, David Robbins, Danny Chan, Court Coursey<br>
+                        Director : Pierre Morel<br>
+                        Writer   : Jacob Lentz<br>
+                        Cast     : Alison Brie, John Cena, Alice Eve,<br>
+                                   Christian Slater, Marton Csokas, Juan Pablo Raba,<br>
+                                   Julianne Arrieta, Molly Mccann, Sebastian Eslava, Roberto Cano, Daniel Toro<br>
+                        Distributor : Agc Studios
+                    </td>
+                    <td>IDR 40,000</td>
+                    <td><button onclick="goToBuy()" type="button">Buy Ticket</button></td>
+                </tr>
+                <tr>
+                    <!--table data 5-->
+                    <td><img src="assets/kultus iblis.jpg" alt="pic not found"></td>
+                    <td>Kultus Iblis  | R17+<br>
+                        Producer : Chand Parwez Servia, Fiaz Servia, Rio Indrawan<br>
+                        Director : Bobby Prasetyo<br>
+                        Writer   : Ilya Aktop, Ami Murti<br>
+                        Cast     : Yasamin Jasem, Fadi Alaydrus,<br> 
+                                   Debo Andryos, Rukman Rosadi,<br>
+                                   Agung Aryani, Yayu Unru,<br> 
+                                   Mian Tiara, Delia Husein,<br>
+                                   Emil Kusumo, M Kadavi, Viki Maintrova<br>
+                        Distributor : Starvision, Focuslight
+                    </td>
+                    <td>IDR 40,000</td>
+                    <td><button onclick="goToBuy()" type="button">Buy Ticket</button></td>
+                </tr>
+                <tr>
+                    <!--table data 6-->
+                    <td><img src="assets/fnaf.jpg" alt="pic not found"></td>
+                    <td>FIVE NIGHTS AT FREDDY'S | R13+ 
+                        Producer : Jason Blum, Scott Cawthon
+                        Director : Emma Tammi
+                        Writer   : Scott Cawthon, Seth Cuddeback, Emma Tammi
+                        Cast     : Josh Hutcherson, Matthew Lillard,<br>
+                                   Elizabeth Lail, Mary Stuart Masterson,<br>
+                                   Jessica Blackmore, Kevin Foster, Jess Weiss,<br>
+                                   Kat Conner Sterling
+                        Distributor : Universal Pictures
+                    </td>
+                    <td>IDR 40,000</td>
+                    <td><button onclick="goToBuy()" type="button">Buy Ticket</button></td>
+                </tr>
+                <tr>
+                    <!--table data 7-->
+                    <td><img src="assets/flower moon.jpg" alt="pic not found"></td>
+                    <td>KILLERS OF THE FLOWER MOON | R17+<br> 
+                        Producer : Dan Friedkin, Daniel Lupi, Martin Scorsese, Bradley Thomas<br>
+                        Director : Martin Scorsese<br>
+                        Writer   : Eric Roth, Martin Scorsese<br>
+                        Cast     : Leonardo Dicaprio, Robert De Niro, Lily Gladstone,<br>
+                                   Jesse Plemons, Tantoo Cardinal, John Lithgow, Brendan Fraser,<br>
+                                   Cara Jade Myers, Janae Collins, Jillian Dion<br>
+                        Distributor : Universal Pictures
+                    </td>
+                    <td>IDR 40,000</td>
+                    <td><button onclick="goToBuy()" type="button">Buy Ticket</button></td>
+                </tr>
+                <tr>
+                    <!--table data 8-->
+                    <td><img src="assets/equalizer.jpg" alt="pic not found"></td>
+                    <td>THE EQUALIZER 3 | R17+<br> 
+                        Producer : Antoine Fuqua, Denzel Washington, Clayton Townsend
+                        Director : Antoine Fuqua
+                        Writer   : Richard Wenk
+                        Cast     : Denzel Washington, Dakota Fanning, David Denman,<br>
+                                   Sonia Ammar, Eugenio Mastrandrea, Gaia Scodellaro,<br>
+                                   Andrea Scarduzio, Remo Girone<br>
+                        Distributor : Columbia Pictures
+                    </td>
+                    <td>IDR 40,000</td>
+                    <td><button onclick="goToBuy()" type="button">Buy Ticket</button></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <h4>Cinema XII</h4>
+        <p>Copyright 2023 © Designed by Athena</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,376 @@
+.atas{
+    background-color: maroon;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+}
+.atas img{
+    float: right;
+}
+.atas h1{
+    color: #b99e65;
+}
+.atas h3,p{
+    color: white;
+}
+.main-container{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.package-container{
+    margin: 20px;
+    padding: 16px;
+    border: 3px solid black;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px gray;
+}
+.package-container p{
+    color: black;
+}
+.package-container img{
+    width: 300px;
+}
+/*Header navbar*/
+header{
+    background-color: maroon;
+    color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    display: flex;
+}
+.header-title{
+    text-align: left;
+    color: #b99e65;
+    margin: 14px;
+    font-size: 18px;
+}
+nav{
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 15px;
+}
+button{
+    background-color: maroon;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.left{
+    margin-left: 60%;
+}
+table, th,td,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.title {
+    text-align: center;
+    color: #b99e65;
+}
+th{
+    background-color: maroon;
+    color: #b99e65;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.table img{
+    width: 200px;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: maroon;
+    padding: 10px;
+    margin-top: 50px;
+}
+footer h4{
+    color: #b99e65;
+}
+a:hover{
+    color: black;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid maroon;
+    cursor: pointer;
+    color: black;
+}
+.atas2{
+    background-color: white;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+}
+.atas2 img{
+    float: right;
+}
+.atas2 h1{
+    color: #b99e65;
+}
+.atas2 h3,p{
+    color: white;
+}
+.menu{
+    padding: 0 10px 30px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+}
+.heading{
+    background-color: maroon;
+    color: white;
+    margin-bottom: 30px;
+    padding: 30px 0;
+    grid-column: 1/-1;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.heading h1 {
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+
+.heading h3 {
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+
+.food-items {
+    display: grid;
+    margin-left: 80px;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    z-index: -1;
+}
+
+.food-items img {
+    position: relative;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.details{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+
+.details-sub{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.details-sub h5{
+    font-weight: 600;
+    font-size: 18px; 
+}
+
+.harga{
+    text-align: right;
+}
+
+.details p {
+    color: #333;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+}
+
+.details button {
+    background-color: maroon;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+}
+
+.details button:hover {
+    background-color: transparent;
+    border: 2px solid maroon;
+    cursor: pointer;
+    color: black;
+}
+/*profile page*/
+
+
+header {
+    background-color: #800000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.member {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+}
+.member p{
+    font-size: 16px;
+    text-align: center;
+}
+.member img {
+    width: 100%;
+    border-radius: 50%;
+}
+/*order form*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
+}
+:root{
+    --main-color: #f1b20f;
+    --text-color: #fff;
+    --other-color: #212121;
+    --second-color: #9e9e9e;
+    --bg-color: #070f3b;
+    --big-font: 4.5rem;
+    --h2-font: 2.6rem;
+    --p-font: 1.1rem;
+
+}.more-about{
+    padding: 40px 12% 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 2rem;
+    text-align: center;
+}
+.more-box{
+    padding: 43px 43px 43px 43px;
+    background: var(--other-color);
+    border-radius: 2rem;
+}
+.more-box h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 16px 0;
+    color: var(--text-color);
+}
+.more-box h2{
+    font-size: 21px;
+    font-weight: bold;
+    margin: 16px 0;
+    color: var(--main-color);
+}
+.more-box i{
+    font-size: 70px;
+    font-weight: bold;
+    margin: 16px 0;
+    color: #b99e65;
+}
+.imgdaftar img{
+    width: 10rem;
+    border-radius: 1em;
+    margin-right: 5rem;
+}
+.daftar{
+    background: var(--main-color);
+    margin: 30px 25rem 30px 25rem;
+    border-radius: 2em;
+}
+.contdaftar{
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+    border-radius: 2rem;
+    display: flex;
+}
+
+
+
+
+.btn{
+    display: inline-block;
+    padding: 15px 35px;
+    margin: 0px 0px 8px;
+    background: var(--other-color);
+    color: var(--main-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 3rem;
+    transition: all .50s ease;
+}
+
+.btn:hover{
+    background: var(--bg-color);
+    color: #8995db;
+    box-shadow: #6e5837 0px 1px 25px;
+}
+
+
+
+
+
+input{
+    margin: 5px 0px 30px;
+}
+.pesan{
+    margin-left: 27rem;
+}
+form{
+    align-items: center;
+}
+select{
+    width: 50%;
+    padding: 16px 20px;
+    margin-bottom: 30rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff9e0db9;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+
+
+.orderbox{
+    align-items: center ;
+}
+.metodebayar{
+    margin: 20px 0px ;
+}
